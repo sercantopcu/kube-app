@@ -7,6 +7,6 @@ spec:
     app: vpromc
   ports:
     - protocol: TCP
-      port: 3306
+      port: 11211
       targetPort: vpromc-port
   type: ClusterIP
